@@ -12,7 +12,7 @@
 	ErrorLog /path/to/logs/placeford-proxied-error.log
 
 	# Where the files are
-	DocumentRoot /path/to/content/
+	DocumentRoot /path/to/files/
 	
 	# For the cycle journey planner area, proxy the requests from proxied.cyclestreets.net
 	# Reverse proxy: see http://httpd.apache.org/docs/2.2/mod/mod_proxy.html#examples
