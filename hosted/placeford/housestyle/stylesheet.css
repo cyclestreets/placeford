@@ -1,0 +1,104 @@
+
+* {margin: 0; padding: 0;}
+html {background-color: #eee; font-size: 62.5%; overflow-y: scroll;}
+body {background-color: #fff; border-bottom: 1px solid #ddd; border-left: 1px solid #ddd; border-right: 1px solid #ddd; color: #222; font-family: verdana, sans-serif; font-size: 1.3em; margin: 0 auto; padding: 10px; width: 960px;}
+
+h1 {color: #fff; font-family: tahoma, sans-serif; font-size: 1.9em; font-weight: normal; line-height: 1.2em; margin: 0 0 10px 6px; padding: 5px 0 0 2px; width: 537px;}
+h2, h3, h4 {clear: left; font-family: tahoma, verdana, sans-serif; font-weight: normal; line-height: 1.2em; margin: 0 0 10px 0; padding: 0;}
+h2 {font-size: 1.5em;}
+h3 {font-size: 1.3em;}
+h4 {font-size: 1.1em; font-weight: bold;}
+h2 a, h3 a, h4 a {border-bottom: 0; color: #222;}
+h2 a:hover, h2 a:active, h3 a:hover, h3 a:active, h4 a:hover, h4 a:active {border-bottom: 1px solid #222; color: #222;}
+
+p {font-family: verdana, sans-serif; margin: 0 0 10px 0;}
+
+a {text-decoration: none;}
+
+#logo {width: 200px; height: 186px;}
+#logo img {margin: 0 25px;}
+
+#columnwrapper {margin-top: 10px;}
+#middlewrapper {float: right; font-family: arial, sans-serif; margin: 0 0 0 10px; width: 750px;}
+#middleheader {width: 750px;}
+#heading {float: left; width: 545px;}
+#breadcrumb {font-family: arial, sans-serif; font-size: 0.9em; padding: 0; width: 545px;}
+#breadcrumb ul {margin: 0 0 0 8px; padding: 0 0 0 2px;}
+#breadcrumb ul li, #breadcrumb ul li a, #breadcrumb ul li a:visited {color: #fff; display: inline;}
+#breadcrumb ul li a:hover {text-decoration: underline;}
+#breadcrumb span {font-weight: bold;}
+#summary {color: #fff; float: left; font-family: verdana, sans-serif; margin: 10px 0 0 10px; width: 185px;}
+#middleheader .clear {height: 10px;}
+#middlecolumn {float: left; margin: 0 10px 0 0; width: auto;}
+#rightcolumn {float: left; margin: 5px 0 0; padding: 0 0 10px 0; width: 200px;}
+
+#leftColumn {float: left; padding: 0 0 10px 0; width: 200px;}
+
+#content {font-family: verdana, sans-serif; line-height: 1.4em; margin: 10px 0 5px 0;}
+
+#footer {clear: both; font-size: 0.9em; width: 960px; background-color: #ddd; clear: both; height: 2em; margin: 10px 0 0 0;}
+#footer ul {float: right; list-style-type: none; margin: 5px 0 5px 0;}
+#footer ul li {float: left; margin: 0 5px 0 15px;}
+#footer ul li a {color: #222;}
+#footer #footercontent ul li a:hover {border-bottom: 1px solid #222;}
+
+#footer .clear {display: none;}
+
+a img {border: 0;}
+
+.leftColumn {float: left; margin: 0 10px 0 0; width: 265px;}
+.clear {clear: both;}
+#leftcolumn a, #footer a {background: none; border: 0;}
+
+
+#middlecolumn {width: 750px;}
+
+
+* html #middlecolumn {width: auto;}			/* IE6 hack */
+* html #middlecolumn #map {width: auto;}	/* IE6 hack */
+
+#logo {text-align: left; margin-bottom: 15px;}
+
+/* Menu */
+#mainmenu ul {list-style: none; width: 190px; margin: 0; padding: 0; text-align: left;}
+#mainmenu li {margin: 0 0 4px; list-style-type: none;}
+#mainmenu li a {font-weight: bold; text-decoration: none; display: block; padding: 6px 0 6px 10px; background-color: #f4f4f4; border-left: 4px solid #cccccc; border-bottom: 0;}
+#mainmenu li a {color: #505050;}
+#mainmenu li a {width: 176px;}	/* Hack: restatement of width necessary to stop Win/IE6 adding margin between blocks - see http://lists.evolt.org/archive/Week-of-Mon-20050117/168008.html */
+#mainmenu li.indent a {padding-left: 17px;}
+#mainmenu li.indent a {width: 169px;}	/* Hack: restatement of width necessary to stop Win/IE6 adding margin between blocks - see http://lists.evolt.org/archive/Week-of-Mon-20050117/168008.html */
+#mainmenu li a:hover, #mainmenu li.selected a:hover {background-color: #eaeaea; color: #9D714D; border-left: 4px solid #9D714D;}
+#mainmenu li.selected a {border-bottom: 1px solid #ddd;}
+#mainmenu li.selected a {background-color: #B49174; color: white;}
+#mainmenu li.selected li li a {font-size: 12px; padding-top: 2px; padding-bottom: 2px;}
+#mainmenu li.selected li.selected a {background-color: #9D714D; font-weight: bold; color: white;}
+
+/* Submenus */
+#mainmenu ul ul {margin-bottom: 10px;}
+#mainmenu li li {margin: 0;}
+#mainmenu li li a {font-weight: normal; padding: 2px 0 2px 10px;}
+#mainmenu li li a:hover {border-left-color: #666699;}
+/* #!# Ideally make this so that #mainmenu li li is gray but on hover is the section's colour */
+#mainmenu li.selected li a {background-color: #fafafa; border-bottom: 1px solid #f1f1f1; color: #505050;}
+
+body #middleheader, body #heading {background-color: #69BD7F;}
+body #heading h1 {color: white;}
+body #cyclestreets-content h1 {color: #9D714D;}
+
+
+#breadcrumb ul li, #breadcrumb ul li a, #breadcrumb ul li a:visited {color: gray;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
