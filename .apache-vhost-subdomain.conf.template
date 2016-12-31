@@ -1,0 +1,15 @@
+
+<VirtualHost *:80>
+
+	# Available URL(s)
+	ServerName cyclemap.placeford.org
+	
+	# Logging
+	CustomLog /path/to/logs/placeford-access.log combined
+	ErrorLog /path/to/logs/placeford-error.log
+
+	# Where the files are
+	DocumentRoot /path/to/files/
+	
+</VirtualHost>
+
