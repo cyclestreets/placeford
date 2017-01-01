@@ -11,5 +11,10 @@
 	# Where the files are
 	DocumentRoot /path/to/files/
 	
+	# Allow access
+	<Location />
+		Require all granted
+	</Location>
+	
 </VirtualHost>
 
