@@ -38,7 +38,31 @@
 
 
 
-<!-- Journey planner to go here -->
+<!-- START of: Journey planner code snippet, provided by CycleStreets -->
+
+<div id="cyclestreets-app" style="height: 100vh;"></div>
+<script>
+  const clientConfig = (() => {
+    return {
+      apiKey: 'YOUR_API_KEY',
+      mapCenter: [ 1.1594009399414065, 52.05433116370976 ],
+      mapZoom: 10,
+      enabledStyles: ['outdoors', 'satellite', 'opencyclemap', 'osopendata'],
+      enableSpeedSelector: true,
+      enableCircularRouting: true,
+      style: {
+        primaryColor: '#3F8A42',
+        primaryColorHover: '#527186',
+        borderRadius: '30px'
+      },
+      enableIsochrones: true
+    };
+  })();
+</script>
+<script type="module" crossorigin src="https://whitelabel.cyclestreets.net/cyclestreets-whitelabel.js"></script>
+<link rel="stylesheet" href="https://whitelabel.cyclestreets.net/cyclestreets-whitelabel.css">
+
+<!-- END of: Journey planner code snippet, provided by CycleStreets -->
 
 
 <p>If you want to give us feedback on the planner, please <a href="/contacts/">contact us</a>.</p>
