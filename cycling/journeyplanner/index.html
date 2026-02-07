@@ -26,7 +26,7 @@
 	
 	<img id="logo" src="/images/logo.png" width="100" alt="Placeford Council logo" />
 	
-	<h1>Placeford Council</h1>
+	<h1>Placeford Council demo</h1>
 	<p>You are in: <a href="/">Home</a> &gt; <a href="#">Transport</a> &gt; <a href="/cycling/">Cycling and walking</a> &gt; Plan your journey</p>
 	
 </header>
@@ -34,29 +34,32 @@
 	
 <h2>Cycling and walking planner</h2>
 
-<p>With our journey planner, you can plan cycling and walking routes from A-B, circular leisure routes, show points of interest, and browse curated tours that help you explore our area.</p>
-<p>Our updated planner interface is more mobile-friendly, adds waypoint functionality, an e-bike option, a walking option, 3D mode, a cycling speed control, points of interest functions, a satellite background option, and other improvements.</p>
+<p>With our journey planner, you can plan cycling and walking routes from A-B, show points of interest, and browse curated tours that help you explore our area.</p>
+<p>Our updated planner interface is mobile-friendly, adds waypoint functionality, an e-bike option, a walking option, 3D mode, a cycling speed control, points of interest functions, a satellite background option, and other improvements.</p>
+<p>Additional features we have included are the circular (A-A) routing mode on the left and the travel times isochrones on the right.</p>
+<p><a href="https://www.applytosupply.digitalmarketplace.service.gov.uk/g-cloud/services/586573606601729" target="_blank">How to get a journey planner for your website.</a></p>
 
 
 <!-- START of: Journey planner code snippet, provided by CycleStreets -->
 
-<div id="cyclestreets-app" style="height: 100vh;"></div>
+<div id="cyclestreets-app" style="height: 90vh;"></div>
 <script>
   const clientConfig = (() => {
     return {
       apiKey: 'YOUR_API_KEY',
-      mapCenter: [ 1.1594009399414065, 52.05433116370976 ],
-      mapZoom: 10,
+      mapCenter: [ -0.30478, 51.40981 ],
+      mapZoom: 13,
       enabledStyles: ['outdoors', 'satellite', 'opencyclemap', 'osopendata'],
       enableSpeedSelector: true,
       style: {
-        primaryColor: '#3F8A42',
+        primaryColor: '#3f8a42',
         primaryColorHover: '#527186',
-        borderRadius: '30px'
+        borderRadius: '30px',
+        borderColor: '#3f8a42',
+        scrollbarColor: '#ccc'
       },
-      enableCircularRouting: false,
-      featuredApiUrl: false,
-      enableIsochrones: false,
+      enableCircularRouting: true,
+      enableIsochrones: true
     };
   })();
 </script>
